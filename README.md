@@ -1,7 +1,7 @@
 # Pixel Art Maker Tutorial
 
-Author Peter Cole  
-Version 1.0.0
+**Author** Peter Cole  
+**Version** 1.0.0
 
 ## Description
 
