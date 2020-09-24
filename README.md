@@ -1,3 +1,29 @@
+# Pixel Art Maker Tutorial
+
+Author Peter Cole  
+Version 1.0.0
+
+## Description
+
+- React app that accepts cursor inputs on a grid to create pixel art, transforming each grid cell to any chosen color
+- Coding along with a [video](https://www.youtube.com/watch?v=__9xLZwvHUs) by [Coding Garden](https://www.youtube.com/channel/UCLNgu_OupwoeESgtab33CCw)
+
+## Dependencies
+
+```javascript
+"dependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-scripts": "3.4.3"
+	}
+```
+
+## Snapshot
+
+![snapshot](assets/snapshot-pixel-art.png)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
