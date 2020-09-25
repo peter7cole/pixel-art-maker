@@ -4,6 +4,7 @@ import { nanoid } from 'nanoid';
 
 const Grid = () => {
 	const classes = useStyles();
+	// destructuring!
 	const [cells] = useState(Array.from({ length: 40 }));
 	return (
 		<div className={classes.grid}>

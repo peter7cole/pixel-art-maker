@@ -7,6 +7,7 @@
 
 - React app that accepts cursor inputs on a grid to create pixel art, transforming each grid cell to any chosen color
 - Coding along with a [video](https://www.youtube.com/watch?v=__9xLZwvHUs) by [Coding Garden](https://www.youtube.com/channel/UCLNgu_OupwoeESgtab33CCw)
+- Uses React, [JSS](https://cssinjs.org/react-jss/?v=v10.4.0) integration with React and an NPM key generator called [nanoid](https://www.npmjs.com/package/nanoid)
 
 ## Dependencies
 
