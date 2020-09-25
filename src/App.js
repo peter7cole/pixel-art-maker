@@ -1,20 +1,14 @@
 import React from 'react';
-import { createUseStyles } from 'react-jss';
-
-const useStyles = createUseStyles({
-	app: {
-		display: 'flex',
-		width: '100%',
-		height: '100%',
-	},
-});
+import useStyles from './App.styles';
+import Grid from './components/Grid/Grid';
+import ColorPicker from './components/ColorPicker/ColorPicker';
 
 function App() {
 	const classes = useStyles();
 	return (
 		<div className={classes.app}>
-			Hello World
-			{/* <Grid /> */}
+			<ColorPicker />
+			<Grid />
 		</div>
 	);
 }

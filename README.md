@@ -1,7 +1,7 @@
 # Pixel Art Maker Tutorial
 
 **Author** Peter Cole  
-**Version** 1.0.0
+**Version** 1.0.1
 
 ## Description
 
@@ -12,15 +12,17 @@
 
 ```javascript
 "dependencies": {
-		"react": "^16.13.1",
-		"react-dom": "^16.13.1",
-		"react-scripts": "3.4.3"
-	}
+	"nanoid": "^3.1.12",
+	"react": "^16.13.1",
+	"react-dom": "^16.13.1",
+	"react-jss": "^10.4.0",
+	"react-scripts": "3.4.3"
+}
 ```
 
-## Snapshot
+<!-- ## Snapshot -->
 
-![snapshot](assets/snapshot-pixel-art.png)
+<!-- ![snapshot](assets/snapshot-pixel-art.png) -->
 
 ---
 
