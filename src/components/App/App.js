@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import useStyles from './App.styles';
-import Grid from './components/Grid/Grid';
-import ColorPicker from './components/ColorPicker/ColorPicker';
+import Grid from '../Grid/Grid';
+import ColorPicker from '../ColorPicker/ColorPicker';
 
 const offCell = {
 	on: false,
@@ -24,6 +24,7 @@ function App() {
 				{colorSwatch.map(color => (
 					<div
 						key={color}
+						onClick={() => setCurrentColor(color)}
 						className={classes.colorSwatch}
 						style={{ background: color }}
 					></div>

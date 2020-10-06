@@ -13,7 +13,7 @@ export default createUseStyles({
 		display: 'flex',
 	},
 	colorSwatch: {
-		margin: '1rem',
+		margin: '0.5rem',
 		padding: 0,
 		width: '25px',
 		height: '25px',
