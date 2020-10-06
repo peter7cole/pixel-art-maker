@@ -1,7 +1,7 @@
 # Pixel Art Maker Tutorial
 
 **Author** Peter Cole  
-**Version** 1.0.2
+**Version** 1.0.3
 
 ## Description
 
@@ -21,9 +21,9 @@
 }
 ```
 
-<!-- ## Snapshot -->
+## Snapshot
 
-<!-- ![snapshot](assets/snapshot-pixel-art.png) -->
+![snapshot](assets/snapshot-pixel-art103.png)
 
 ---
 

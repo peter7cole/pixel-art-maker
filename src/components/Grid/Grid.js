@@ -1,18 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import useStyles from './Grid.styles';
 // import { nanoid } from 'nanoid';
 
-const offCell = {
-	on: false,
-	color: '#ffffff',
-};
-
-const initialCells = Array.from({ length: 40 }, () => offCell);
-
-const Grid = ({ currentColor }) => {
+const Grid = ({ currentColor, cells, setCells, offCell }) => {
 	const classes = useStyles();
 	// destructuring!
-	const [cells, setCells] = useState(initialCells);
 	const updateCell = (i, defaultState) => e => {
 		e.preventDefault(); // to prevent context menu
 		setCells(
@@ -32,8 +24,8 @@ const Grid = ({ currentColor }) => {
 		<div className={classes.grid}>
 			{cells.map((cell, i) => (
 				<div
-					className={classes.cell}
 					key={i}
+					className={classes.cell}
 					style={{ background: cell.on ? cell.color : '#ffffff' }}
 					onClick={updateCell(i)}
 					onContextMenu={updateCell(i, offCell)}
